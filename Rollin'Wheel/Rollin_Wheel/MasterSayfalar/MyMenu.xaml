@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Rollin_Wheel.MasterSayfalar.MyMenu"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="White">
+            
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Padding="0,20,0,0">
+                <Image Source="beyazsembol.jpg" HorizontalOptions="Center" VerticalOptions="Center" WidthRequest="80" HeightRequest="80"></Image>
+            </StackLayout>
+            
+            <StackLayout>
+                <Image Source="namelogo.jpg" HorizontalOptions="Center" VerticalOptions="Start" WidthRequest="140" HeightRequest="140"></Image>
+            </StackLayout>
+            
+            <StackLayout Padding="10" VerticalOptions="CenterAndExpand" Spacing="10">
+                <Label Text="Map" TextColor="Black" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" />
+                <Label Text="About" TextColor="Black" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" />
+            </StackLayout>
+            
+            <StackLayout Orientation="Horizontal" HeightRequest="20" HorizontalOptions="Center" VerticalOptions="End" Padding="0,0,0,30">
+                <Label Text="rollinwheel.com" TextColor="Black"></Label>
+            </StackLayout>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

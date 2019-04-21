@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Rollin_Wheel.Views.MyContentPage"
+             BackgroundColor="White">
+    
+    <ContentPage.Content>
+        
+        <StackLayout Orientation="Vertical" HorizontalOptions="Fill" VerticalOptions="Fill" BackgroundColor="#37274f" Padding="40">
+            <Label Text="Welcome to" TextColor="#fed430" HorizontalOptions="CenterAndExpand" FontSize="Large"></Label>
+            <Image Source="kucukmorlogo.jpg" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" ></Image>
+            <!--Button Text="Get Started!" VerticalOptions="End" HorizontalOptions="CenterAndExpand" Clicked="onClicked"></-->
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

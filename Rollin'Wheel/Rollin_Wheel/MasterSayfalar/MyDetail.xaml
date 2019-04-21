@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Rollin_Wheel.MasterSayfalar.MyDetail"
+             BackgroundColor="WhiteSmoke">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#37274f" Padding="20">
+            <Label Text="Welcome to" TextColor="#fed430" VerticalOptions="Start" HorizontalOptions="CenterAndExpand" ></Label>
+            <Image Source="kucukmorlogo.jpg" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" ></Image>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
